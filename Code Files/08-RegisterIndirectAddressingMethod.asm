@@ -17,7 +17,8 @@ start:
 
     mov bx, offset num1         ; Load the starting pointer address of the array into BX
 
-    xor ax, ax                  
+    ; xor ax, ax
+    mov ax, 0                  
     ; This will set ax to zero Why? Think
     ; check effect on ZF (Clears AX to 0, sets ZF = 1)
     add ax, [bx]                ; Add 1st element (5) via pointer

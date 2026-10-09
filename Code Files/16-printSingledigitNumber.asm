@@ -4,6 +4,8 @@
 
 .code
 start:
+
+    
     ; 1. Setup the number printing parameters
     mov ah, 02h     ; DOS function 02h: Display character
     ; mov dl, '7'     ; The character to display

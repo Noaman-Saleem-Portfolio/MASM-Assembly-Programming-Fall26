@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     // Write C++ code here
     int array[4] = {5, 10, 15, 0};
 
@@ -9,7 +10,7 @@ int main() {
 
     array[3] = temp;
 
-    cout<<temp;
-    
+    cout << temp;
+
     return 0;
 }

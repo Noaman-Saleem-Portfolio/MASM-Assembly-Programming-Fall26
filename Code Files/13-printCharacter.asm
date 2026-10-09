@@ -3,6 +3,7 @@
 
 .code
 start:
+
     ; 1. Setup the character printing parameters
     mov ah, 02h     ; DOS function 02h: Display character
     mov dl, 'A'     ; The character to display

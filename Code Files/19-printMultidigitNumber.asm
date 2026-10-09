@@ -3,6 +3,8 @@
 
 .code
 start:
+
+    
     ; --- 1. SET UP THE NUMBER TO PRINT ---
     mov ax, 258         ; The number we want to print
     mov bx, 10          ; Divisor

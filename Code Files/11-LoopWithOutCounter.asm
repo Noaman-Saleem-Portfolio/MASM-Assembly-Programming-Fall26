@@ -1,4 +1,4 @@
-; --- BASE-INDEXED ADDRESSING ---
+; --- BASE-INDEXED ADDRESSING --- 
 ; Like traditional array indexing: array[i]
 .model small
 .stack 100h
@@ -19,7 +19,7 @@ start:
     mov bx, offset num1        ; BX holds the constant BASE address (start of array)
     mov si, 0                  ; SI holds the variable INDEX offset (starts at 0)
     
-outerloop: 
+outerloop:  
     ; --- BASE-INDEXED ADDRESSING ---
     ; The CPU calculates the physical address dynamically: (Base BX) + (Index SI)
      add ax, [bx + si]    ;option 1      

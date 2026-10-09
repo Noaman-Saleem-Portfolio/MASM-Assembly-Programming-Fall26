@@ -3,6 +3,8 @@
 
 .code
 start:
+
+    
     ; --- 1st: Load the combined 32-bit dividend (70,000) ---
     mov dx, 0001h    ; DX gets the upper bits of 70,000
     mov ax, 1170h    ; AX gets the lower bits of 70,000

@@ -1,5 +1,5 @@
 ; --- BASE-INDEXED ADDRESSING ---
-; Like traditional array indexing: array[i]
+; Like traditional array indexing: array[i] 
 .model small
 .stack 100h
 

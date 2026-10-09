@@ -3,6 +3,8 @@
 
 .code
 start:
+
+    
     mov cx, 5             ; Loop 5 times
     mov bx, 0             ; bx starts at 0
 

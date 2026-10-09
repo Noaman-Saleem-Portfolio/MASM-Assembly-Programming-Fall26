@@ -3,6 +3,8 @@
 
 .code
 start:
+
+    
     mov cx, 5             ; Loop 5 times
     mov bx, 1             ; Number to add (1, 2, 3, 4, 5)
     mov ax, 0             ; AX will be our Accumulator (sum = 0)

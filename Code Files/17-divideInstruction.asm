@@ -3,6 +3,8 @@
 
 .code
 start:
+
+    
     mov ax, 17       ; 1st: Load the total dividend into AX (0011h)
     mov bl, 5        ; 2nd: Load the divisor into an 8-bit register
 
